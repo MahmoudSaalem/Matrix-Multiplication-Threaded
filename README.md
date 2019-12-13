@@ -9,7 +9,7 @@
     ./<file name>
     ```
 
-## Simple-Unix-Shell
+## Simple Unix Shell
 
 A Simple unix-based shell
     
