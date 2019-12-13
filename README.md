@@ -31,6 +31,7 @@ A Simple unix-based shell
     * Details: In this case, the shell executes the command and returns immediately, not blocking until the command finishes.
     * Concepts: Background execution, signals, signal handlers, processes and asynchronous execution.
 
+## Concurrency Control
 
 ## Matrix Multiplication - Threaded
 
@@ -71,3 +72,4 @@ A Simple unix-based shell
     result matrix entries
     END2	[elapsed time of procedure 2]
         
+## Merger Sort - Threaded
