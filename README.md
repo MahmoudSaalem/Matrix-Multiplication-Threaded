@@ -1,4 +1,4 @@
-# Matrix Multiplication Threaded
+# Matrix Multiplication - Threaded
 
 ### A Multi-threaded version of matrix multiplication that computes the result in 2 ways
 1. Each element of the result matrix is calculated in a thread
@@ -8,11 +8,9 @@
 * Place your input file in the "Test Cases" directory
 * Open the terminal
 * Navigate to the program directory
-* Issue the following commands
+* Issue the following commands in order
     ``` c
     gcc main.c -o main -lpthread
-    ```
-    ``` c
     ./main
     ```
 * When the program runs it will ask for the input file name
