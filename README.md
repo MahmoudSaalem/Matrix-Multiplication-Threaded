@@ -4,8 +4,14 @@
 * Open Linux terminal
 * Navigate to the program directory
 * Issue the following commands in order
+    * In case of C
     ``` c
     gcc <file name>.c -o <file name> -lpthread
+    ./<file name>
+    ```
+    * In case of C++
+    ``` c
+    g++ -std=c++11 <file name>.cpp -o <file name> -lpthread
     ./<file name>
     ```
 
