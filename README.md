@@ -1,11 +1,6 @@
-# Matrix Multiplication - Threaded
+# Multiprogramming
 
-### A Multi-threaded version of matrix multiplication that computes the result in 2 ways
-1. Each element of the result matrix is calculated in a thread
-2. Each row of the result matrix is calculated in a thread
-
-## To compile and run the program:
-* Place your input file in the "Test Cases" directory
+### To compile and run any of the programs:
 * Open the terminal
 * Navigate to the program directory
 * Issue the following commands in order
@@ -13,11 +8,20 @@
     gcc main.c -o main -lpthread
     ./main
     ```
+    
+## Matrix Multiplication - Threaded
+
+### A Multi-threaded version of matrix multiplication that computes the result in 2 ways
+1. Each element of the result matrix is calculated in a thread
+2. Each row of the result matrix is calculated in a thread
+
+### Program details
+* Place your input file in the "Test Cases" directory before compiling
 * When the program runs it will ask for the input file name
     * Enter the input file name without extension
         * Input should be a .txt file
 
-## Input file format:
+### Input file format:
     [number of rows of 1st matrix] [number of columns of 1st matrix]
     1st matrix entries
     [number of rows of 2nd matrix] [number of columns of 2nd matrix]
