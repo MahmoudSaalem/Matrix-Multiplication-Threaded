@@ -1,7 +1,7 @@
 # Multiprogramming
 
 ### To compile and run any of the programs:
-* Open the terminal
+* Open Linux terminal
 * Navigate to the program directory
 * Issue the following commands in order
     ``` c
@@ -72,4 +72,4 @@ A Simple unix-based shell
     result matrix entries
     END2	[elapsed time of procedure 2]
         
-## Merger Sort - Threaded
+## Merge Sort - Threaded
